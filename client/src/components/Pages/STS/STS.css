@@ -1,0 +1,26 @@
+.sidebar {
+    background-image: linear-gradient(40deg, #19d3ae, #0fcfec);
+    position: fixed;
+    width: 250px; /* Set a default width for the sidebar */
+}
+
+.sidebar li {
+    margin-bottom: 2em;
+}
+
+.sidebar li:hover span {
+    display: inline-block;
+    transform: translate(5px);
+}
+
+.sidebar svg {
+    margin-right: 5px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%; /* Set the width to 100% for smaller screens */
+        padding: 20px; /* Add padding for better spacing */
+    }
+}

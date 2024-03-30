@@ -1,0 +1,61 @@
+@import url('https://f...content-available-to-author-only...s.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f2f5; /* Set a background color that complements the card colors */
+}
+
+.form-container {
+  width: 100%; /* Set width to 100% to ensure it fills the container */
+  max-width: 1000px; /* Set maximum width to prevent it from expanding too much */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 0 20px; /* Add some horizontal padding */
+  background-color: #ffffff; /* Set a background color for the form container */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.title, .slogan {
+  text-align: center;
+}
+
+.btn {
+  width: 100%; /* Make button fill its container */
+}
+
+.auth-image {
+  width: 100%; /* Make image fill its container */
+  border-radius: 8px;
+}
+
+.alert {
+  margin-bottom: 1.5rem; /* Add unit to margin value */
+}
+
+.profile-card {
+  width: 100%; /* Make profile card fill its container */
+  max-width: 500px; /* Set maximum width to prevent it from expanding too much */
+  margin: 0 auto; /* Center the card horizontally */
+  background-color: #ffffff; /* Set a background color for the profile card */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.avatar {
+  margin-bottom: 1.5rem; /* Add unit to margin value */
+}
+
+.username {
+  text-transform: capitalize;
+}
+
+.profile-btn {
+  margin-top: 1.3rem; /* Add unit to margin value */
+  width: 100%; /* Make button fill its container */
+}
