@@ -7,4 +7,9 @@ emails of team members = {
 }
 
 
+admin login credentials:
+email: admin@gmail.com
+password: admin
+
+
 run docker-compose up --build
